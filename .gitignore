@@ -4,6 +4,8 @@ Logs/
 
 
 # We don't need to add pyinstaller files.
-HP_Utility.spec
-build/
 dist/
+build/
+*.spec
+__pycache__/
+*.pyc
