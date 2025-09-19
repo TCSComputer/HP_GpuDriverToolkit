@@ -1,3 +1,9 @@
-# Don't host Logs, nor Drivers
+# Don't push specific folders.
 Drivers/
 Logs/
+
+
+# We don't need to add pyinstaller files.
+HP_Utility.spec
+build/
+dist/
